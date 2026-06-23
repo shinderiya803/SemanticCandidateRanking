@@ -8,13 +8,12 @@ Recruiters often deal with thousands of resumes for a single job opening. Tradit
 
 This project uses **Sentence Transformers** and **cosine similarity** to understand semantic relationships between candidate profiles and job requirements, enabling more relevant candidate recommendations.
 
----
+
 
 ## Problem Statement
 
 Given a job description and a large pool of candidate profiles, rank candidates according to their relevance and generate the Top-100 recommendations.
 
----
 
 ## Approach
 
@@ -36,33 +35,11 @@ Generate vector representations using:
 Calculate semantic similarity between:
 
 * Job description embedding
-* Candidate profile embeddings
-
-using **Cosine Similarity**.
+* Candidate profile embeddings using **Cosine Similarity**.
 
 ### 4. Candidate Ranking
 
 Sort candidates according to similarity scores and generate ranked recommendations.
-
----
-
-## System Workflow
-
-Job Description
-↓
-Sentence Transformer
-↓
-Job Embedding
-↓
-Candidate Profiles
-↓
-Candidate Embeddings
-↓
-Cosine Similarity
-↓
-Ranking Engine
-↓
-Top 100 Candidates
 
 ---
 
@@ -115,10 +92,14 @@ Top 100 Candidates
 ## Repository Structure
 
 ```
-├──India_Run_Hack_2.ipynb
-├── submission.csv
+SemanticCandidateRanking/
+│
 ├── README.md
-
+├── Semanticmodel.ipynb
+├── semanticcandidateranking.py
+├── architecture.png
+├── requirements.txt
+├── submission.csv
 ```
 
 ---
