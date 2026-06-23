@@ -115,7 +115,7 @@ Top 100 Candidates
 ## Repository Structure
 
 ```
-├── Semantic_Candidate_Ranking.ipynb
+├──India_Run_Hack_2.ipynb
 ├── submission.csv
 ├── README.md
 
