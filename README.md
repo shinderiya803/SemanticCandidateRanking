@@ -11,8 +11,7 @@ This project uses **Sentence Transformers** and **cosine similarity** to underst
 
 
 ## Problem Statement
-
-Given a job description and a large pool of candidate profiles, rank candidates according to their relevance and generate the Top-100 recommendations.
+Build an AI-powered candidate discovery system that analyzes a job description, evaluates thousands of candidate profiles, and generates a ranked list of the Top-100 most relevant candidates based on semantic relevance and skill alignment.
 
 
 ## Approach
